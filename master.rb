@@ -2,10 +2,10 @@ require 'formula'
 
 class Master < Formula
   homepage 'https://github.com/shiwano/master'
-  url "https://github.com/shiwano/master/releases/download/v0.3.0/master_darwin_amd64"
-  sha256 '4eb99fdff7d87fbb9ec97d535f8473bc014fbe78a26019fa4eec41a3a5dcf993'
+  url "https://github.com/shiwano/master/releases/download/v0.4.0/master_darwin_amd64"
+  sha256 '31051fcd0a13d05afdd3f599398685f7dc223f178ab44344961c108094a2255f'
 
-  version 'v0.3.0'
+  version 'v0.4.0'
 
   def install
     mv 'master_darwin_amd64', 'master'
